@@ -1,0 +1,426 @@
+[
+  {
+    "id": "res-1",
+    "title": "Understanding Cognitive Distortions",
+    "type": "article",
+    "category": "anxiety",
+    "description": "Learn to identify and challenge common negative thinking patterns that trigger anxiety, such as catastrophizing and black-and-white thinking.",
+    "duration": "6 min read"
+  },
+  {
+    "id": "res-2",
+    "title": "The Box Breathing Technique",
+    "type": "exercise",
+    "category": "anxiety",
+    "description": "A simple 4-second breathing pattern used by Navy SEALs to quickly calm the nervous system and manage panic or acute stress.",
+    "duration": "5 min practice"
+  },
+  {
+    "id": "res-3",
+    "title": "Challenging Anxious Thoughts Worksheet",
+    "type": "worksheet",
+    "category": "anxiety",
+    "description": "A step-by-step cognitive behavioral therapy (CBT) guide to writing down, analyzing, and restructuring anxious thought patterns.",
+    "duration": "15 min write-up"
+  },
+  {
+    "id": "res-4",
+    "title": "Navigating Social Anxiety",
+    "type": "article",
+    "category": "anxiety",
+    "description": "Strategies and reframing techniques to manage nervousness in social gatherings and feel more comfortable talking to new people.",
+    "duration": "8 min read"
+  },
+  {
+    "id": "res-5",
+    "title": "Progressive Muscle Relaxation (PMR)",
+    "type": "exercise",
+    "category": "anxiety",
+    "description": "Tense and release different muscle groups sequentially to induce deep physical and mental relaxation.",
+    "duration": "10 min practice"
+  },
+  {
+    "id": "res-6",
+    "title": "Anxiety Exposure Hierarchy Builder",
+    "type": "worksheet",
+    "category": "anxiety",
+    "description": "Construct a systematic ladder of fear exposures to slowly desensitize your nervous system to anxiety triggers.",
+    "duration": "20 min write-up"
+  },
+  {
+    "id": "res-7",
+    "title": "The 5-4-3-2-1 Grounding Method",
+    "type": "exercise",
+    "category": "anxiety",
+    "description": "A sensory grounding technique that anchors you to the present moment during high anxiety or panic attacks.",
+    "duration": "4 min practice"
+  },
+  {
+    "id": "res-8",
+    "title": "Behavioral Activation for Depression",
+    "type": "article",
+    "category": "depression",
+    "description": "An introduction to behavioral activation, a core CBT technique to break the loop of withdrawal and low mood.",
+    "duration": "7 min read"
+  },
+  {
+    "id": "res-9",
+    "title": "Daily Mood Tracking Exercise",
+    "type": "exercise",
+    "category": "depression",
+    "description": "A structured routine to track daily activities and score their positive influence on your overall mood.",
+    "duration": "5 min practice"
+  },
+  {
+    "id": "res-10",
+    "title": "Activity Scheduling and Tracking Worksheet",
+    "type": "worksheet",
+    "category": "depression",
+    "description": "Schedule pleasurable or productive tasks throughout your week and log your sense of mastery and enjoyment.",
+    "duration": "15 min write-up"
+  },
+  {
+    "id": "res-11",
+    "title": "Understanding the Depression Loop",
+    "type": "article",
+    "category": "depression",
+    "description": "Explore how thoughts, physical symptoms, behaviors, and emotions interact to sustain low energy states.",
+    "duration": "5 min read"
+  },
+  {
+    "id": "res-12",
+    "title": "Opposite Action Practice for Low Mood",
+    "type": "exercise",
+    "category": "depression",
+    "description": "A DBT skill directing you to do the opposite of what low energy impulses tell you to do (e.g. going out instead of isolating).",
+    "duration": "10 min practice"
+  },
+  {
+    "id": "res-13",
+    "title": "Identifying Core Values Worksheet",
+    "type": "worksheet",
+    "category": "depression",
+    "description": "Find your core principles and values to help align your goals and daily behavior with what truly matters to you.",
+    "duration": "25 min write-up"
+  },
+  {
+    "id": "res-14",
+    "title": "The Role of Exercise in Depression Recovery",
+    "type": "article",
+    "category": "depression",
+    "description": "A scientific review of how physical activity affects neurotransmitters and acts as a mild anti-depressant.",
+    "duration": "6 min read"
+  },
+  {
+    "id": "res-15",
+    "title": "Introduction to Mindfulness Meditation",
+    "type": "article",
+    "category": "mindfulness",
+    "description": "Demystifying mindfulness: what it is, what it isn't, and how it helps create space between you and your thoughts.",
+    "duration": "5 min read"
+  },
+  {
+    "id": "res-16",
+    "title": "The Mindful Breathing Anchor",
+    "type": "exercise",
+    "category": "mindfulness",
+    "description": "A foundational meditation directing attention to the sensations of the breath, gently returning focus when mind wanders.",
+    "duration": "8 min practice"
+  },
+  {
+    "id": "res-17",
+    "title": "Daily Mindfulness Log Worksheet",
+    "type": "worksheet",
+    "category": "mindfulness",
+    "description": "Keep track of your formal and informal mindfulness practices, noting distractions and insights.",
+    "duration": "10 min write-up"
+  },
+  {
+    "id": "res-18",
+    "title": "The Power of Radical Acceptance",
+    "type": "article",
+    "category": "mindfulness",
+    "description": "Learn the DBT concept of accepting reality as it is without judgment to stop turning pain into suffering.",
+    "duration": "7 min read"
+  },
+  {
+    "id": "res-19",
+    "title": "Body Scan Meditation",
+    "type": "exercise",
+    "category": "mindfulness",
+    "description": "Scan your body mentally from head to toe, releasing physical tension and cultivating mindful somatic awareness.",
+    "duration": "12 min practice"
+  },
+  {
+    "id": "res-20",
+    "title": "Mindful Senses Inventory Worksheet",
+    "type": "worksheet",
+    "category": "mindfulness",
+    "description": "A checklist sheet that encourages checking in with your 5 senses during routine daily tasks.",
+    "duration": "10 min write-up"
+  },
+  {
+    "id": "res-21",
+    "title": "Loving-Kindness Meditation (Metta)",
+    "type": "exercise",
+    "category": "mindfulness",
+    "description": "Develop compassion for yourself, a loved one, and all living beings through positive phrase repetitions.",
+    "duration": "10 min practice"
+  },
+  {
+    "id": "res-22",
+    "title": "Establishing Healthy Sleep Hygiene",
+    "type": "article",
+    "category": "sleep",
+    "description": "Clean up your pre-bed habits: screen time limits, light exposure, schedules, and temperature control settings.",
+    "duration": "6 min read"
+  },
+  {
+    "id": "res-23",
+    "title": "The 4-7-8 Breathing Sleep Method",
+    "type": "exercise",
+    "category": "sleep",
+    "description": "A tranquil breathing rhythm created by Dr. Andrew Weil to settle the mind and prompt natural sleep.",
+    "duration": "5 min practice"
+  },
+  {
+    "id": "res-24",
+    "title": "Bedtime Brain Dump Worksheet",
+    "type": "worksheet",
+    "category": "sleep",
+    "description": "Clear your head of to-do lists, concerns, and circular thoughts before closing your eyes.",
+    "duration": "10 min write-up"
+  },
+  {
+    "id": "res-25",
+    "title": "Understanding Sleep Cycles & Architecture",
+    "type": "article",
+    "category": "sleep",
+    "description": "An educational guide explaining REM and deep sleep cycles and how they affect physical restoration.",
+    "duration": "8 min read"
+  },
+  {
+    "id": "res-26",
+    "title": "Autogenic Relaxation for Sleep",
+    "type": "exercise",
+    "category": "sleep",
+    "description": "A self-relaxation exercise utilizing suggestions of warmth and heaviness in limbs to drift into sleep.",
+    "duration": "10 min practice"
+  },
+  {
+    "id": "res-27",
+    "title": "Sleep Log & Habit Tracker Worksheet",
+    "type": "worksheet",
+    "category": "sleep",
+    "description": "Track bedtimes, sleep quality, wake times, and screen routines to optimize your circadian rhythm.",
+    "duration": "10 min write-up"
+  },
+  {
+    "id": "res-28",
+    "title": "Cognitive Shuffling for Insomnia",
+    "type": "exercise",
+    "category": "sleep",
+    "description": "Scramble your brain's logic by visualizing random words to mimic the initial phase of sleep dreaming.",
+    "duration": "6 min practice"
+  },
+  {
+    "id": "res-29",
+    "title": "Preventing Professional Burnout",
+    "type": "article",
+    "category": "work-stress",
+    "description": "Identify early warning signs of work exhaustion, emotional drainage, and clinical burnout.",
+    "duration": "7 min read"
+  },
+  {
+    "id": "res-30",
+    "title": "The Boundary Setting Guide",
+    "type": "exercise",
+    "category": "work-stress",
+    "description": "Learn to comfortably say no, set clear workplace expectations, and protect your personal evenings.",
+    "duration": "10 min practice"
+  },
+  {
+    "id": "res-31",
+    "title": "Workplace Stress Trigger Worksheet",
+    "type": "worksheet",
+    "category": "work-stress",
+    "description": "Keep track of demanding situations, identifying underlying patterns and plan active responses.",
+    "duration": "15 min write-up"
+  },
+  {
+    "id": "res-32",
+    "title": "Effective Time Boxing and Prioritization",
+    "type": "article",
+    "category": "work-stress",
+    "description": "Manage tasks efficiently using the Eisenhower Matrix to reduce the stress of endless to-do lists.",
+    "duration": "5 min read"
+  },
+  {
+    "id": "res-33",
+    "title": "The 5-Minute Mid-Day Decompression",
+    "type": "exercise",
+    "category": "work-stress",
+    "description": "A quick breathing and physical stretching sequence to reset stress levels during high-pressure work days.",
+    "duration": "5 min practice"
+  },
+  {
+    "id": "res-34",
+    "title": "Values-Aligned Career Assessment Worksheet",
+    "type": "worksheet",
+    "category": "work-stress",
+    "description": "Evaluate how closely your current work responsibilities align with your personal values.",
+    "duration": "20 min write-up"
+  },
+  {
+    "id": "res-35",
+    "title": "The Psychology of Imposter Syndrome",
+    "type": "article",
+    "category": "work-stress",
+    "description": "Why highly capable professionals doubt their achievements and how to challenge self-deprecating narratives.",
+    "duration": "8 min read"
+  },
+  {
+    "id": "res-36",
+    "title": "Silencing the Inner Critic",
+    "type": "article",
+    "category": "self-esteem",
+    "description": "Shift from critical self-talk to empathetic self-compassion, using evidence-based cognitive restructuring.",
+    "duration": "7 min read"
+  },
+  {
+    "id": "res-37",
+    "title": "Self-Compassion Mirror Exercise",
+    "type": "exercise",
+    "category": "self-esteem",
+    "description": "A daily check-in targeting self-worth, positive feedback loops, and self-forgiveness.",
+    "duration": "5 min practice"
+  },
+  {
+    "id": "res-38",
+    "title": "Self-Esteem Booster Log Worksheet",
+    "type": "worksheet",
+    "category": "self-esteem",
+    "description": "Keep track of daily successes, strengths, compliments, and personal victories to build confidence.",
+    "duration": "10 min write-up"
+  },
+  {
+    "id": "res-39",
+    "title": "Cultivating Unconditional Self-Worth",
+    "type": "article",
+    "category": "self-esteem",
+    "description": "Move away from performance-based validation and understand that your core worth is inherent.",
+    "duration": "6 min read"
+  },
+  {
+    "id": "res-40",
+    "title": "Affirmations for Self-acceptance",
+    "type": "exercise",
+    "category": "self-esteem",
+    "description": "Practice using realistic positive affirmations that validate your current growth path.",
+    "duration": "6 min practice"
+  },
+  {
+    "id": "res-41",
+    "title": "Personal Strengths Inventory Worksheet",
+    "type": "worksheet",
+    "category": "self-esteem",
+    "description": "A comprehensive values worksheet designed to map your core character strengths and resources.",
+    "duration": "20 min write-up"
+  },
+  {
+    "id": "res-42",
+    "title": "Dating and Relationship Self-worth",
+    "type": "article",
+    "category": "self-esteem",
+    "description": "How self-esteem impacts relationship dynamics, boundaries, and who we select as partners.",
+    "duration": "8 min read"
+  },
+  {
+    "id": "res-43",
+    "title": "Navigating Attachment Styles",
+    "type": "article",
+    "category": "relationships",
+    "description": "Understand secure, anxious, avoidant, and fearful attachment dynamics and how they play out in conflicts.",
+    "duration": "9 min read"
+  },
+  {
+    "id": "res-44",
+    "title": "Active Listening Practice",
+    "type": "exercise",
+    "category": "relationships",
+    "description": "A communication exercise designed to practice mirroring back and validating partner statements.",
+    "duration": "10 min practice"
+  },
+  {
+    "id": "res-45",
+    "title": "Relationship Health Audit Worksheet",
+    "type": "worksheet",
+    "category": "relationships",
+    "description": "Assess balance, trust, intimacy, safety, and constructive communication channels in your close relationships.",
+    "duration": "20 min write-up"
+  },
+  {
+    "id": "res-46",
+    "title": "The Anatomy of Apologies",
+    "type": "article",
+    "category": "relationships",
+    "description": "Learn the components of a genuine apology that builds trust, validates feelings, and establishes change.",
+    "duration": "6 min read"
+  },
+  {
+    "id": "res-47",
+    "title": "DEAR MAN Assertive Communication",
+    "type": "exercise",
+    "category": "relationships",
+    "description": "Practice the core DBT skill to request support or state boundaries assertively.",
+    "duration": "10 min practice"
+  },
+  {
+    "id": "res-48",
+    "title": "Love Languages Mapping Worksheet",
+    "type": "worksheet",
+    "category": "relationships",
+    "description": "Map how you and your partner express and receive affection, words of affirmation, quality time, and acts of service.",
+    "duration": "15 min write-up"
+  },
+  {
+    "id": "res-49",
+    "title": "The Dual Process Model of Grief",
+    "type": "article",
+    "category": "grief",
+    "description": "Understand why grief oscillates between loss-oriented and restoration-oriented behaviors.",
+    "duration": "7 min read"
+  },
+  {
+    "id": "res-50",
+    "title": "Unsent Letter Writing Exercise",
+    "type": "exercise",
+    "category": "grief",
+    "description": "Process unresolved feelings or unspoken words by writing a private letter to a lost loved one.",
+    "duration": "15 min practice"
+  },
+  {
+    "id": "res-51",
+    "title": "Honoring Memories Inventory Worksheet",
+    "type": "worksheet",
+    "category": "grief",
+    "description": "Create a journal page dedicated to capturing memories, lessons, and values inherited from a lost connection.",
+    "duration": "20 min write-up"
+  },
+  {
+    "id": "res-52",
+    "title": "Understanding Grief Waves",
+    "type": "article",
+    "category": "grief",
+    "description": "How grief evolves from an overwhelming tide to unpredictable waves, and how to practice self-care during surges.",
+    "duration": "6 min read"
+  },
+  {
+    "id": "res-53",
+    "title": "Grief Self-compassion Check-in",
+    "type": "exercise",
+    "category": "grief",
+    "description": "A mindful check-in to release self-imposed timelines on grieving and practice warm acceptance.",
+    "duration": "8 min practice"
+  }
+]
