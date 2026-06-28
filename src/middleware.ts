@@ -1,51 +1,72 @@
+import { withAuth } from "next-auth/middleware";
 import { NextResponse } from "next/server";
-import type { NextRequest } from "next/server";
-import { getToken } from "next-auth/jwt";
 
-export async function middleware(req: NextRequest) {
-  const token = await getToken({ req });
-  const { pathname } = req.nextUrl;
+export default withAuth(
+  function middleware(req) {
+    const token = req.nextauth.token;
+    const { pathname } = req.nextUrl;
+    const role = token?.role;
 
-  const protectedPaths = [
-    "/dashboard",
-    "/journal",
-    "/match",
-    "/messages",
-    "/resources",
-    "/session",
-    "/therapist",
-    "/onboarding",
-  ];
-
-  const isProtected = protectedPaths.some(
-    (path) => pathname === path || pathname.startsWith(path + "/")
-  );
-
-  if (isProtected && !token) {
-    const loginUrl = new URL("/auth/signin", req.url);
-    loginUrl.searchParams.set("callbackUrl", req.nextUrl.pathname);
-    return NextResponse.redirect(loginUrl);
-  }
-
-  if (pathname.startsWith("/auth/")) {
-    if (token) {
-      try {
-        const res = await fetch(`${req.nextUrl.origin}/api/user/role`, {
-          headers: { cookie: req.headers.get("cookie") || "" },
-        });
-        const data = await res.json();
-        if (data.role === "therapist") {
-          return NextResponse.redirect(new URL("/therapist/dashboard", req.url));
-        }
-      } catch (e) {
-        console.warn("Middleware role query failed, defaulting:", e);
-      }
+    // CLIENT hitting /therapist/* -> redirect /dashboard
+    if (pathname.startsWith("/therapist") && role === "CLIENT") {
       return NextResponse.redirect(new URL("/dashboard", req.url));
     }
-  }
 
-  return NextResponse.next();
-}
+    // THERAPIST hitting /dashboard -> redirect /therapist/dashboard
+    if (pathname.startsWith("/dashboard") && role === "THERAPIST") {
+      return NextResponse.redirect(new URL("/therapist/dashboard", req.url));
+    }
+
+    // Authenticated user hitting /auth/* -> redirect based on role
+    if (pathname.startsWith("/auth/")) {
+      if (role === "THERAPIST") {
+        return NextResponse.redirect(new URL("/therapist/dashboard", req.url));
+      } else {
+        return NextResponse.redirect(new URL("/dashboard", req.url));
+      }
+    }
+
+    return NextResponse.next();
+  },
+  {
+    callbacks: {
+      authorized: ({ token, req }) => {
+        const { pathname } = req.nextUrl;
+
+        // All /api/* and /auth/* paths are public (except if logged in and hitting /auth/*, handled in middleware redirect above)
+        if (pathname.startsWith("/api/") || (pathname.startsWith("/auth/") && !token)) {
+          return true;
+        }
+
+        const protectedPaths = [
+          "/dashboard",
+          "/journal",
+          "/match",
+          "/messages",
+          "/onboarding",
+          "/resources",
+          "/session",
+          "/therapist",
+          "/profile",
+          "/settings",
+        ];
+
+        const isProtected = protectedPaths.some(
+          (path) => pathname === path || pathname.startsWith(path + "/")
+        );
+
+        if (isProtected) {
+          return !!token;
+        }
+
+        return true;
+      },
+    },
+    pages: {
+      signIn: "/auth/signin",
+    },
+  }
+);
 
 export const config = {
   matcher: [
@@ -53,10 +74,11 @@ export const config = {
     "/journal/:path*",
     "/match/:path*",
     "/messages/:path*",
+    "/onboarding/:path*",
     "/resources/:path*",
     "/session/:path*",
     "/therapist/:path*",
-    "/onboarding/:path*",
-    "/auth/:path*",
+    "/profile/:path*",
+    "/settings/:path*",
   ],
 };

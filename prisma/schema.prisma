@@ -41,6 +41,7 @@ model User {
   emailVerified   DateTime?
   image           String?
   password        String?          // Required for Credentials Provider authorization
+  role            UserRole         @default(CLIENT)
   accounts        Account[]
   sessions        Session[]
   journalEntries  JournalEntry[]
@@ -170,5 +171,7 @@ model SavedResource {
   @@unique([userId, resourceId])
 }
 
-
-
+enum UserRole {
+  CLIENT
+  THERAPIST
+}
